@@ -10,4 +10,5 @@ c) y is right child of z and x is right child of y (Right Right Case)
 d) y is right child of z and x is left child of y (Right Left Case)
 Like insertion, following are the operations to be performed in above mentioned 4 cases. Note that, unlike insertion, fixing the node z won’t fix the complete AVL tree. After fixing z, we may have to fix ancestors of z as well
 
+## OUTPUT : 
 ![image](https://user-images.githubusercontent.com/69696459/132339734-cdb1814b-fe5f-42fe-be07-641a3a7de25c.png)
