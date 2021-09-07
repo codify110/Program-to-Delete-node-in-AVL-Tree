@@ -15,9 +15,6 @@ or x (on right side)
 Keys in both of the above trees follow the following order
       keys(T1) < key(x) < keys(T2) < key(y) < keys(T3)
 So BST property is not violated anywhere.
- 
-
- 
 Let w be the node to be deleted 
 1) Perform standard BST delete for w. 
 2) Starting from w, travel up and find the first unbalanced node. Let z be the first unbalanced node, y be the larger height child of z, and x be the larger height child of y. Note that the definitions of x and y are different from insertion here. 
@@ -50,10 +47,6 @@ T1   x                          y    T3                    T1  T2 T3  T4
   T2   T3                    T1   T2
 c) Right Right Case 
  
-
-
-
-
   z                                y
  /  \                            /   \ 
 T1   y     Left Rotate(z)       z      x
